@@ -1,0 +1,68 @@
+.similar-list-docs {
+  background-color: #202020;
+  margin: 20px;
+  padding: 28px;
+  width: 370px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-list-docs {
+    padding: 16px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.company-logo-url {
+  width: 60px;
+  margin-right: 20px;
+}
+.company-logo-title {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .company-logo-title {
+    font-size: 20px;
+  }
+}
+
+.display-rating {
+  display: flex;
+}
+.similar-desc-heading {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-desc-heading {
+    font-size: 20px;
+  }
+}
+.similar-desc {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-desc {
+    font-size: 16px;
+  }
+}
+
+.location-container-flex-justify {
+  display: flex;
+  margin-top: 15px;
+}
